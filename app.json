@@ -1,9 +1,9 @@
 {
   "name":"BMW-X5MD",
-  "description":"bot whatsapp développé by Ibrahim adams",
+  "description":"bot whatsapp déveloped by Robinsontarget",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/7cd9d893413bffb0c5bdb.jpg",
-  "repository":"https://github.com/ibrahimaitech/BMW-MD",
+  "repository":"https://github.com/robinsontarget/BMW-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -54,11 +54,11 @@
     }
 	,
     "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
+    "description": "insert your heroku api-key (this is optional)",
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
+    "description": "insert your heroku APP NAME (this is optional)",
      "required" :false
     }  
 	  ,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝑴𝒓 𝑰𝒃𝒓𝒂𝒉𝒊𝒎"
+    "value": "Robinson target"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "+254739937062,254710772666"
+    "value": "+254753700117,254115942003"
   },
     "WARN_COUNT":
   {
@@ -91,7 +91,7 @@
   },
   "STARTING_BOT_MESSAGE":
   {
-    "description": "if you don't want startting-bot-message put no else put yes",
+    "description": "if you don't want starting-bot-message put no else put yes",
     "required": true,
     "value": "yes"
   },
@@ -114,7 +114,7 @@
 		}
 	},
 
-  "addons":[
+  "addons":["play and download movies and series"]
     {
       "plan":"heroku-postgresql:essential-0"
     }
